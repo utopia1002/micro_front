@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*Theme Color*/
+:root {
+  --gunmetal : #293035;
+  --tearose : #E7C2C5;
+  --pblue : #ACCAFF;
+  --sgray : #74828D;
+  --mint : #93FFB0;
+}
+body{
+  font-family: 'Nanum Gothic Coding', monospace,
+  sans-serif,
+  arial;
+}
