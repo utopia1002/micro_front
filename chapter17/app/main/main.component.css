@@ -1,0 +1,58 @@
+.background{
+  height: 100vh;
+  weight: 100%;
+  background-image: linear-gradient(rgba(115,95,100,0.7),rgba(115,95,100,0.7)),url("/assets/static/eiffel.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+.main-title{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 50px !important;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Lexend Deca';
+  text-align: center;
+  width: 100%;
+}
+p{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--tearose);
+}
+.main-button{
+  text-align: center;
+}
+button{
+  height: 60px;
+  width: 180px;
+  border: 2px solid var(--pblue);
+  border-radius: 30px;
+  background: none;
+  font-size: 17px;
+  color: var(--pblue);
+  font-weight: 700;
+}
+@media(min-width: 426px){
+  .main-title{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .container>h1{
+    font-size: 80px !important;
+  }
+  .container>p{
+    font-size: 30px !important;
+  }
+
+}
